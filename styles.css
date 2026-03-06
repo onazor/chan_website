@@ -127,6 +127,115 @@ h2 {
     color: #4a4a4a;
 }
 
+/* LeetCode Stats */
+.leetcode-stats {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    border: 1px solid #e0e0e0;
+}
+
+.stats-header {
+    margin-bottom: 1.5rem;
+}
+
+.leetcode-stats p {
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+.leetcode-stats a {
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid #1a1a1a;
+    transition: color 0.2s;
+}
+
+.leetcode-stats a:hover {
+    color: #4a4a4a;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1rem;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.85rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Concepts Grid */
+.concepts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.concept-card {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.concept-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.concept-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+    color: #1a1a1a;
+}
+
+.concept-card p {
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.topic-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.topic-list li {
+    padding: 0.4rem 0;
+    color: #1a1a1a;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.topic-list li:last-child {
+    border-bottom: none;
+}
+
 /* Footer */
 footer {
     border-top: 1px solid #e0e0e0;

@@ -25,19 +25,89 @@
         <section class="content">
             <h1>Coding</h1>
             <p>
-                This section will showcase your coding projects, tutorials, 
-                and technical articles.
+                My journey in competitive programming and technical concepts. 
+                I document my progress on LeetCode and share insights on algorithms, 
+                data structures, and problem-solving techniques.
             </p>
             
-            <h2>Projects</h2>
-            <ul class="post-list">
+            <h2>LeetCode Progress</h2>
+            <div class="leetcode-stats">
+                <div class="stats-header">
+                    <p>
+                        <strong>Profile:</strong> <a href="https://leetcode.com/onazor" target="_blank">@onazor</a> | 
+                        <strong>GitHub:</strong> <a href="https://github.com/onazor/LeetCode" target="_blank">Solutions Repository</a>
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" id="total-solved">49</span>
+                        <span class="stat-label">Problems Solved</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="easy-solved">24</span>
+                        <span class="stat-label">Easy</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="medium-solved">25</span>
+                        <span class="stat-label">Medium</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" id="hard-solved">0</span>
+                        <span class="stat-label">Hard</span>
+                    </div>
+                </div>
+            </div>
+            
+            <h2>Latest Solutions</h2>
+            <p>My 3 most recently solved problems.</p>
+            <ul class="post-list" id="recent-problems">
                 <li>
-                    <span class="date">Coming soon</span>
-                    <a href="#">Your coding projects will be listed here</a>
+                    <span class="date">Loading...</span>
+                    <a href="#">Fetching latest problems...</a>
                 </li>
             </ul>
+            
+            <h2>Concepts & Tutorials</h2>
+            <p>Exploring fundamental and advanced topics in computer science.</p>
+            
+            <div class="concepts-grid">
+                <div class="concept-card">
+                    <h3>Algorithms</h3>
+                    <p>Sorting, searching, dynamic programming, greedy algorithms, and optimization techniques.</p>
+                    <ul class="topic-list">
+                        <li>Binary Search</li>
+                        <li>Sorting Algorithms</li>
+                        <li>Dynamic Programming</li>
+                        <li>Graph Algorithms</li>
+                    </ul>
+                </div>
+                
+                <div class="concept-card">
+                    <h3>Data Structures</h3>
+                    <p>Essential data structures for efficient problem solving and system design.</p>
+                    <ul class="topic-list">
+                        <li>Arrays & Strings</li>
+                        <li>Trees & Graphs</li>
+                        <li>Hash Tables</li>
+                        <li>Heaps & Priority Queues</li>
+                    </ul>
+                </div>
+                
+                <div class="concept-card">
+                    <h3>Problem Solving</h3>
+                    <p>Common patterns and techniques for tackling coding challenges.</p>
+                    <ul class="topic-list">
+                        <li>Two Pointers</li>
+                        <li>Sliding Window</li>
+                        <li>Backtracking</li>
+                        <li>Divide & Conquer</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
+
+    <script src="leetcode-data.js"></script>
 
     <footer>
         <p>&copy; 2026 Chan. All rights reserved.</p>
